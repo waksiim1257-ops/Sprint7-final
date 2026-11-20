@@ -94,6 +94,7 @@ func TestCafeSearch(t *testing.T) {
 		})
 	}
 }
+
 func TestCafeCount(t *testing.T) {
 	handler := http.HandlerFunc(mainHandle)
 
